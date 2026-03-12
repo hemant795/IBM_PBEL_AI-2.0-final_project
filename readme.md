@@ -46,8 +46,6 @@ pip install -r requirements.txt
 ```bash
 python mnist_cnn.py
 ```
-### Google Colab
-
 The script will:
 
 1. Download the MNIST dataset (into `./data/` on first run)
@@ -67,4 +65,5 @@ CUDA is used automatically if available. The script prints GPU name, allocated, 
 ├── requirements.txt   # Python dependencies
 ├── .gitignore
 └── README.md
+
 ```
